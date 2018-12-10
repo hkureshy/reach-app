@@ -1,0 +1,163 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.75;
+  margin: 0;
+  text-decoration: none;
+}
+
+nav.navbar-dark {
+  position: relative;
+  background-color: #1d2441;
+}
+
+a {
+  color: #578eff;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1.headline {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 10% 0 10%;
+  line-height: 1.75;
+}
+
+.contact-info a.newsletter {
+  height: 50px;
+  width: 100%;
+  max-width: 250px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-radius: 25px;
+  background-color: #578efc;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.row .right img {
+  max-height: 420px;
+  margin-bottom: 1.25em;
+}
+
+.row .right a.login {
+  background-color: #fff;
+  color: #578eff;
+}
+
+a.login, a.apps {
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+a.login {
+  max-width: 150px;
+  width: 100%;
+  height: 50px;
+  border-radius: 28.5px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--dodger-blue);
+  display: inline-block;
+  text-decoration: none;
+  /* margin-bottom: 10%; */
+}
+
+a.apps img {
+  height: 50px;
+}
+
+/* Overview Page */
+
+.bg-color-base {
+  background-color: #1d2441;
+  color: white;
+}
+
+.section.split img.phone, .section.how-it-works img.phone {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.row.split.legal {
+width: 100%;
+}
+
+@media screen and (max-width: 1145px) {
+  a.login, a.apps {
+      margin: 10px auto;
+      display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar .container {
+      justify-content: center;
+  }
+
+  nav.navbar {
+      position: relative;
+      padding: 1em 0;
+  }
+
+  .navbar .links {
+      margin-top: 1em;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .navbar .links .nav-link {
+      font-size: 90%;
+      padding: 0.5em;
+  }
+
+  .landing-page .split {
+      height: auto;
+  }
+
+  h1.headline {
+    font-size: 1.5em;
+    margin: 1em auto 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .contact-info {
+      text-align: center;
+      margin: 2em 0;
+  }
+
+  .landing-page .legal {
+    position: static;
+    width: auto;
+    height: auto;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .row.split.legal {
+    margin: 0;
+  }
+
+  .row.section1 h3 {
+      text-align: center;
+      margin-bottom: 1em;
+  }
+
+  .footnote {
+    position: static !important;
+    margin-top: 2em;
+  }
+}

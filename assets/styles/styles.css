@@ -1,0 +1,261 @@
+h3, h5 {
+  font-weight: 400;
+  line-height: 2em;
+}
+
+nav.navbar {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  padding: 2em 0px;
+}
+
+.navbar-brand img {
+  height: 24px;
+}
+
+.navbar .links {
+  display: flex;
+  flex-direction: row;
+}
+
+main.landing-page {
+  height: fit-content;
+  background: linear-gradient(0deg, rgba(87, 142, 255, 0.25) 0%, rgb(255, 255, 255) 90%);
+}
+
+.landing-page .split {
+  height: 100vh;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info a {
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.contact-info a.newsletter:hover {
+  color: #578efc;
+  background-color: #ffffff;
+  border: 1px #578efc solid;
+}
+
+.landing-page .legal {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.row .right {
+  text-align: center;
+}
+
+.row .left {
+  padding: 0 5%;
+}
+
+.legal .left {
+  text-align: center;
+}
+
+.legal p {
+  font-size: 13px;
+  display: inline-block;
+}
+
+.legal .right p, .legal .right p a {
+  color: #578eff;
+}
+
+/* Overview Page */
+
+.row.sectionIntro {
+  padding: 1em 0 3.5em;
+  min-height: 50vh;
+  align-items: center;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.sectionIntro blockquote {
+  font-size: 1.15em;
+}
+
+.btn.btn-primary {
+  border: none;
+  background-color: #69a3ff;
+  color: white;
+  border-radius: 2em;
+  padding: 1em 2em;
+}
+
+.row.section {
+  padding: 3.5em 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.section.split ul {
+  padding-left: 20px;
+}
+
+.section1 ul li {
+  line-height: 2;
+  font-size: 1em;
+}
+
+.row.section2 {
+  padding: 0 0 2.5em;
+}
+
+.row.section.section3 {
+  padding: 0;
+}
+
+.section.split ul li {
+  font-size: 1em;
+  margin-bottom: .5em;
+}
+
+.sectionValueProps [class^="col"] img {
+  width: 100%;
+}
+
+.sectionValueProps h6 {
+  color: #69a3ff;
+}
+
+.section img.phone {
+  max-height: 540px;
+}
+
+.bg-gradient-top-bottom {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(87,142,255,.25) 90%);
+}
+
+.how-it-works h6 {
+  margin: 1em 0;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.card-header h4 {
+  border-top: none;
+  padding: 1em 0;
+  text-transform: capitalize;
+}
+
+.bg-color-blue {
+  background-color: #69a3ff;
+  color: white;
+}
+
+.card:last-child {
+  border: none;
+  box-shadow: none !important;
+}
+
+.card:last-child .card-header {
+  background-color: transparent;
+}
+
+.card-body table {
+  width: 100%;
+}
+
+.basics {
+  background-color: #1d2441;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.complete {
+  background-color: #69a3ff;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.voters {
+  background-color: #cdd9e5;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footnote p {
+  margin: 0;
+}
+
+/* Principles */
+
+.principle {
+  max-width: 935px;
+}
+
+.principle-title {
+  font-size: 48px 
+}
+
+.principle-sub-title {
+  font-size: 36px;
+}
+
+.principle p {
+  font-size: 26px;
+  line-height: 1.5em;
+}
+
+h1.principle-title {
+  line-height: 1.6em;
+  margin: 60px 0 0;
+  color: #69a3ff;
+}
+
+h2.principle-sub-title {
+  color:  #69a3ff;
+  margin-bottom: 50px;
+}
+
+.principle-content {
+  margin-bottom: 50px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+a h4 {
+  color: black;
+}
+
+.collapseable h4 {
+  margin: 30px 0;
+}
+
+.content {
+  margin-bottom: 50px;
+}
