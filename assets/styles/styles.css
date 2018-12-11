@@ -225,7 +225,7 @@ main.landing-page {
 }
 
 .principle p {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.5em;
 }
 
@@ -237,7 +237,22 @@ h1.principle-title {
 
 h2.principle-sub-title {
   color:  #69a3ff;
-  margin-bottom: 50px;
+  margin: 50px 0px 10px 0px;
+}
+
+.principle .list {
+  padding-left: 24px;
+}
+
+.principle .list li {
+  padding-left: 16px;
+  font-size: 24px;
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+.content ul li {
+  font-style: italic;
 }
 
 .principle-content {
@@ -252,10 +267,38 @@ a h4 {
   color: black;
 }
 
-.collapseable h4 {
-  margin: 30px 0;
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 15px 0px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #dadce0;
+}
+
+.collapsible:focus {
+  outline: none;
+}
+
+.collapsible:after {
+  content: '\25b2';
+  font-weight: bold;
+  float: right;
+  color: #69a3ff;
+}
+
+.active:after {
+  content: "\25bc";
+  color: #69a3ff;
 }
 
 .content {
-  margin-bottom: 50px;
+  padding-top: 15px;
+  max-height: 100%;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
 }

@@ -91,7 +91,7 @@ a.apps img {
 }
 
 .row.split.legal {
-width: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 1145px) {

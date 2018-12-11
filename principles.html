@@ -42,47 +42,74 @@
 
         <p class="description">We will assess AI applications in view of the following objectives. We believe that AI should:</p>
 
-        <a data-toggle="collapse" href="#beneficial" aria-expanded="false" aria-controls="beneficial">
-          <h4>1. Be socially beneficial.</h4>
-        </a>
-        <hr>
-        <div class="content" id="beneficial">
+        <button class="collapsible">
+          1. Be socially beneficial.
+        </button>
+        <div class="content">
           <p>The expanded reach of new technologies increasingly touches society as a whole. Advances in AI will have transformative impacts in a wide range of fields, including healthcare, security, energy, transportation, manufacturing, and entertainment. As we consider potential development and uses of AI technologies, we will take into account a broad range of social and economic factors, and will proceed where we believe that the overall likely benefits substantially exceed the foreseeable risks and downsides.</p>
           <p>AI also enhances our ability to understand the meaning of content at scale. We will strive to make high-quality and accurate information readily available using AI, while continuing to respect cultural, social, and legal norms in the countries where we operate. And we will continue to thoughtfully evaluate when to make our technologies available on a non-commercial basis.</p>
         </div>
         
-        <a data-toggle="collapse" href="#unfair-bias" aria-expanded="false" aria-controls="unfair-bias">
-          <h4>2. Avoid creating or reinforcing unfair bias.</h4>
-        </a>
-        <hr>
-        <div class="content" id="unfair-bias">
+        <button class="collapsible">
+          2. Avoid creating or reinforcing unfair bias.
+        </button>
+        <div class="content">
           <p>AI algorithms and datasets can reflect, reinforce, or reduce unfair biases. We recognize that distinguishing fair from unfair biases is not always simple, and differs across cultures and societies. We will seek to avoid unjust impacts on people, particularly those related to sensitive characteristics such as race, ethnicity, gender, nationality, income, sexual orientation, ability, and political or religious belief.</p>
         </div>
 
-        <a data-toggle="collapse" href="#safety" aria-expanded="false" aria-controls="safety">
-          <h4>3. Be built and tested for safety.</h4>
-        </a>
-        <hr>
-        <div class="content" id="safety">
+        <button class="collapsible">
+          3. Be built and tested for safety.
+        </button>
+        <div class="content">
           <p>We will continue to develop and apply strong safety and security practices to avoid unintended results that create risks of harm. We will design our AI systems to be appropriately cautious, and seek to develop them in accordance with best practices in AI safety research. In appropriate cases, we will test AI technologies in constrained environments and monitor their operation after deployment.</p>
         </div>
 
-        <a data-toggle="collapse" href="#accountable" aria-expanded="false" aria-controls="accountable">
-          <h4>4. Be accountable to people.</h4>
-        </a>
-        <hr>
-        <div class="content" id="accountable">
+        <button class="collapsible">
+          4. Be accountable to people.
+        </button>
+        <div class="content">
           <p>We will design AI systems that provide appropriate opportunities for feedback, relevant explanations, and appeal. Our AI technologies will be subject to appropriate human direction and control.</p>
         </div>
 
-        <a data-toggle="collapse" href="#privacy" aria-expanded="false" aria-controls="privacy">
-          <h4>5. Incorporate privacy design principles.</h4>
-        </a>
-        <hr>
-        <div class="content" id="privacy">
+        <button class="collapsible">
+          5. Incorporate privacy design principles.
+        </button>
+        <div class="content">
           <p>We will incorporate our privacy principles in the development and use of our AI technologies. We will give opportunity for notice and consent, encourage architectures with privacy safeguards, and provide appropriate transparency and control over the use of data.</p>
         </div>
-        
+
+        <button class="collapsible">
+          6. Uphold high standards of scientific excellence.
+        </button>
+        <div class="content">
+          <p>Technological innovation is rooted in the scientific method and a commitment to open inquiry, intellectual rigor, integrity, and collaboration. AI tools have the potential to unlock new realms of scientific research and knowledge in critical domains like biology, chemistry, medicine, and environmental sciences. We aspire to high standards of scientific excellence as we work to progress AI development.</p>
+          <p>We will work with a range of stakeholders to promote thoughtful leadership in this area, drawing on scientifically rigorous and multidisciplinary approaches. And we will responsibly share AI knowledge by publishing educational materials, best practices, and research that enable more people to develop useful AI applications.</p>
+        </div>
+
+        <button class="collapsible">
+            7. Be made available for uses that accord with these principles.
+          </button>
+          <div class="content">
+            <p>Many technologies have multiple uses. We will work to limit potentially harmful or abusive applications. As we develop and deploy AI technologies, we will evaluate likely uses in light of the following factors:</p>
+            <ul class="list">
+              <li>Primary purpose and use: the primary purpose and likely use of a technology and application, including how closely the solution is related to or adaptable to a harmful use</li>
+              <li>Nature and uniqueness: whether we are making available technology that is unique or more generally available</li>
+              <li>Scale: whether the use of this technology will have significant impact</li>
+              <li>Nature of Google’s involvement: whether we are providing general-purpose tools, integrating tools for customers, or developing custom solutions</li>
+            </ul>
+          </div>
+
+        <h2 class="principle-sub-title text-center conclusion">AI Applications We Will Not Pursue</h2>
+        <p class="description">In addition to the above objectives, we will not design or deploy AI in the following application areas:</p>
+        <ol class="list">
+          <li>Technologies that cause or are likely to cause overall harm. Where there is a material risk of harm, we will proceed only where we believe that the benefits substantially outweigh the risks, and will incorporate appropriate safety constraints.</li>
+          <li>Weapons or other technologies whose principal purpose or implementation is to cause or directly facilitate injury to people.</li>
+          <li>Technologies that gather or use information for surveillance violating internationally accepted norms.</li>
+          <li>Technologies whose purpose contravenes widely accepted principles of international law and human rights.</li>
+        </ol>
+
+        <h2 class="principle-sub-title text-center conclusion">Conclusion</h2>
+        <p class="description">We believe these principles are the right foundation for our company and our future development of AI. We acknowledge that this area is dynamic and evolving, and we will approach our work with humility, a commitment to internal and external engagement, and a willingness to adapt our approach as we learn over time.</p>
       </div>
 
       <div class="row split legal">
@@ -99,7 +126,22 @@
       </div>
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          var maxHeight = content.style.maxHeight.substr(0, content.style.maxHeight.indexOf('p'));
+          if (!maxHeight || maxHeight > 0){
+            content.style.maxHeight = '0px';
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+    </script>
   </body>
 </html>
